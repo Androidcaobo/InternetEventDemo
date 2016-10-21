@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".activity.MainActivity"
+    >
+
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+       <!-- <com.jude.rollviewpager.RollPagerView
+            android:id="@+id/roll_view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            app:rollviewpager_play_delay="3000"/>-->
+
+    </FrameLayout>
+
+    <TextView
+        android:background="@color/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:id="@+id/textView"/>
+    <RadioGroup
+        android:id="@+id/rg_button"
+        android:layout_height="55dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+        <RadioButton
+            android:id="@+id/rb_home"
+            android:layout_width="0dp"
+            android:drawableTop="@drawable/home"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:button="@null"
+            android:text="首页"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_public"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/publish"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:button="@null"
+            android:text="发布"
+            />
+
+        <RadioButton
+        android:id="@+id/rb_discover"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/discover"
+        android:layout_weight="1.0"
+        android:button="@null"
+        android:gravity="center"
+        android:text="发现"
+        />
+
+        <RadioButton
+            android:id="@+id/rb_my"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/my"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:button="@null"
+            android:text="我的"
+            />
+    </RadioGroup>
+</LinearLayout>

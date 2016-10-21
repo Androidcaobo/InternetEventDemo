@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/baseBackground"
+            >
+
+        </Toolbar>
+
+        <TextView
+            android:textSize="20dp"
+            android:text="发现"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView2"/>
+    </RelativeLayout>
+
+    <TextView
+    android:background="@color/boundary"
+    android:layout_width="match_parent"
+    android:layout_height="15dp"
+    android:id="@+id/dicover_1"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_layou1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        >
+
+        <ImageView
+            android:src="@drawable/distribution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="27dp"
+            android:id="@+id/iv_1"/>
+
+        <TextView
+            android:text="物流服务"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/iv_1"
+            android:layout_marginStart="29dp"
+            android:id="@+id/tv_message1"/>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:background="@color/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:id="@+id/dicover_5"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_layou5"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        >
+
+        <ImageView
+            android:src="@drawable/finance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="27dp"
+            android:id="@+id/iv_5"/>
+
+        <TextView
+            android:text="金融服务"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/iv_5"
+            android:layout_marginStart="29dp"
+            android:id="@+id/tv_message5"/>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:background="@color/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:id="@+id/dicover_2"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_layou2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        >
+
+        <ImageView
+            android:src="@drawable/fix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="27dp"
+            android:id="@+id/iv_2"/>
+
+        <TextView
+            android:text="维修服务"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/iv_2"
+            android:layout_marginStart="29dp"
+            android:id="@+id/tv_message2"/>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:background="@color/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:id="@+id/dicover_3"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_layou3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        >
+
+        <ImageView
+            android:src="@drawable/manual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="27dp"
+            android:id="@+id/iv_3"/>
+
+        <TextView
+            android:text="农业操作手册"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/iv_3"
+            android:layout_marginStart="29dp"
+            android:id="@+id/tv_message3"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:background="@color/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:id="@+id/dicover_4"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_layou4"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        >
+
+        <ImageView
+            android:src="@drawable/law"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="27dp"
+            android:id="@+id/iv_4"/>
+
+        <TextView
+            android:text="法律援助"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/iv_4"
+            android:layout_marginStart="29dp"
+            android:id="@+id/tv_message4"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:background="@color/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+
+
+</LinearLayout>
